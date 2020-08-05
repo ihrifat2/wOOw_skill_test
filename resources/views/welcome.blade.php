@@ -20,7 +20,6 @@
         table{
             margin-left: 45px;
         }
-
         td{
             border: 1px solid #eee;
             padding: 3px;
@@ -47,7 +46,7 @@
         <br/>
         <br/>1. Some people bought some items from Meena Bazaar, which was recorded in some table of your database.
         Defined as: <code>`users`</code>, <code>`grocery`</code>, <code>`meat`</code> and <code>`order`</code>.
-        <br/><b>You have to create migration from the following table instructed and Make Relation SQL and Eloquent (both).</b>
+        <br/><b>You have to create migration from the following table instructed and Make Relation in SQL and Eloquent (both).</b>
         <br/><br/>&emsp;1A. <a target="_blank" href="{{url('most-buy-eloquent')}}">most-buy-eloquent</a> && <a target="_blank" href="{{url('most-buy-no-eloquent')}}" >most-buy-no-eloquent</a>
         <br/>&emsp;The Customer, who has taken the second highest total items.
         <table>
@@ -88,7 +87,7 @@
                 <td>9</td>
             </tr>
         </table>
-        <br/>2. <a target="_blank" href="{{url('employee-attendence')}}">employee-attendence</a>. In here show all users attendence from <code>attendences</code> table in the following manner. Please keep in mind if it friday it'll show <code>Weekend</code>, if it Saturday it'll show <code>Off Day</code>
+        <br/>2. <a target="_blank" href="{{url('employee-attendence')}}">employee-attendence</a>. In here show all users attendence from <code>attendences</code> table in the following manner. Create migration file and Make Relation. <br> Please keep in mind if it friday it'll show <code>Weekend</code>, if it Saturday it'll show <code>Off Day</code>
         <table>            
             <tr>
                 <td>User id</td>
